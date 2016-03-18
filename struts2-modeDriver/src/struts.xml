@@ -7,7 +7,7 @@
 
 
 	<constant name="struts.custom.i18n.resources" value="global" />
-
+	
 	<package name="default" namespace="/" extends="struts-default">
 
 		<action name="addCustomerAction" class="cn.javass.hello.struts2impl.action.LoginAction">
