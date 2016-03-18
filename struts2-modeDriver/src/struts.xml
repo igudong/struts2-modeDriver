@@ -1,0 +1,23 @@
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!-- <constant name="struts.devMode" value="true"></constant> 当指定struts.devMode为true是为开发者模式 -->
+	<constant name="struts.devMode" value="true"></constant>
+
+
+	<constant name="struts.custom.i18n.resources" value="global" />
+
+	<package name="default" namespace="/" extends="struts-default">
+
+		<action name="addCustomerAction" class="cn.javass.hello.struts2impl.action.LoginAction">
+			<result name="success">/servletimpl/addCustomer.jsp</result>
+		</action>
+
+		<action name="customerAction" class="cn.javass.hello.struts2impl.action.LoginAction">
+			<result name="success">/servletimpl/success.jsp</result>
+		</action>
+
+	</package>
+
+</struts> 
