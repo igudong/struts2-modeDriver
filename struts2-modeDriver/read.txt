@@ -1,3 +1,8 @@
 该项目主要用来测试Struts2模型驱动实例
 
+入口地址：
+第一种：http://127.0.0.1:8080/struts2/addCustomerAction
+
+第二种：http://127.0.0.1:8080/struts2/addCustomerAction2
+
 

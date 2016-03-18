@@ -17,6 +17,21 @@
 		<action name="customerAction" class="cn.javass.hello.struts2impl.action.LoginAction">
 			<result name="success">/servletimpl/success.jsp</result>
 		</action>
+		
+
+
+	</package>
+	
+		<package name="default1" namespace="/" extends="struts-default">
+
+		<action name="addCustomerAction2" class="cn.javass.hello.struts2impl.action.LoginAction2">
+			<result name="success">/servletimpl/addCustomer2.jsp</result>
+		</action>
+
+		
+		<action name="customerAction2" class="cn.javass.hello.struts2impl.action.LoginAction2">
+			<result name="success">/servletimpl/success2.jsp</result>
+		</action>
 
 	</package>
 
